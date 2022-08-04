@@ -1,6 +1,6 @@
 require 'benchmark'
 
-$DATA_SIZE = 1
+$DATA_SIZE = 4
 $TIMES_TO_LOOP = 10 ** $DATA_SIZE
 
 def get_random_numbers()
