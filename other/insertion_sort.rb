@@ -8,8 +8,7 @@ execute_insertion_sort = lambda do |numbers|
             compared_index -= 1
         end
 
-        target_number = numbers[i]
-        numbers.delete_at(i)
+        target_number = numbers.delete_at(i)
         numbers.insert(compared_index + 1, target_number)
     end
 
